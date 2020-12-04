@@ -16,7 +16,7 @@
         <dependency>
             <groupId>org.Seleniumhq.Selenium</groupId>
             <artifactId>Selenium-java</artifactId>
-            <version>4.0.0-alpha-1</version>
+            <version>3.141.59</version>
         </dependency>
 
         <dependency>
