@@ -21,4 +21,8 @@ public class LoginSentinel extends PageObject{
         WebElement loginButton = getDriver().findElement(By.xpath("//button[@class='btn px-4 btn-primary']"));
         loginButton.click();
     }
+
+    public void dashboardHome () {
+        getDriver().getCurrentUrl().equals("https://kraken-biller.sumpahpalapa.com/dashboard");
+    }
 }

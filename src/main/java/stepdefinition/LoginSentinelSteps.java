@@ -22,5 +22,6 @@ public class LoginSentinelSteps {
 
     @Then("User success to login")
     public void userSuccessToLogin() {
+        loginSentinel.dashboardHome();
     }
 }
