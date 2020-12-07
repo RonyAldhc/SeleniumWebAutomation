@@ -10,10 +10,10 @@ public class LoginSentinel extends PageObject{
     }
 
     public void inputCredentials (String userName, String password) {
-        WebElement username = getDriver().findElement(By.className("input-group mb-3"));
+        WebElement username = getDriver().findElement(By.xpath("//input[@placeholder='Username']"));
         username.sendKeys(userName);
 
-        WebElement Password = getDriver().findElement(By.className("input-group mb-1"));
+        WebElement Password = getDriver().findElement(By.xpath("//input[@placeholder='Password']"));
         Password.sendKeys(password);
     }
 }
