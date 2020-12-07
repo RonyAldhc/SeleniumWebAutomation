@@ -1,4 +1,4 @@
-package login;
+package pages;
 
 import org.openqa.selenium.WebDriver;
 import pages.PageObject;

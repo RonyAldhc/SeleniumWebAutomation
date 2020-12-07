@@ -1,7 +1,4 @@
-import login.LoginPage;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import pages.LoginPage;
 
 public class Execute {
 
