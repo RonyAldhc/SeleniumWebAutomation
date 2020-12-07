@@ -17,6 +17,7 @@ public class LoginSentinelSteps {
     @When("User input username {string} and password {string}")
     public void userInputUsernameAndPassword(String username, String password) {
         loginSentinel.inputCredentials(username, password);
+        loginSentinel.clickButtonLogin();
     }
 
     @Then("User success to login")

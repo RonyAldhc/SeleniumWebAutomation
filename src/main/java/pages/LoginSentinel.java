@@ -18,7 +18,7 @@ public class LoginSentinel extends PageObject{
     }
 
     public void clickButtonLogin () {
-        WebElement loginButton = getDriver().findElement(By.xpath("//button[@class='btn px-4 btn-primary'"));
+        WebElement loginButton = getDriver().findElement(By.xpath("//button[@class='btn px-4 btn-primary']"));
         loginButton.click();
     }
 }
