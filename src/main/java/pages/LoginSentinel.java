@@ -16,4 +16,9 @@ public class LoginSentinel extends PageObject{
         WebElement Password = getDriver().findElement(By.xpath("//input[@placeholder='Password']"));
         Password.sendKeys(password);
     }
+
+    public void clickButtonLogin () {
+        WebElement loginButton = getDriver().findElement(By.xpath("//button[@class='btn px-4 btn-primary'"));
+        loginButton.click();
+    }
 }
