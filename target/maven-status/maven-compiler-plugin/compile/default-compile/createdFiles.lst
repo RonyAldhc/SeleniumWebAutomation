@@ -1,6 +1,0 @@
-hooks/CucumberHooks.class
-stepdefinition/CucumberTestSuite.class
-pages/LoginPage.class
-stepdefinition/OpenPageSteps.class
-pages/PageObject.class
-Execute.class

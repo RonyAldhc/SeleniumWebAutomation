@@ -1,3 +1,4 @@
+@feature
 Feature: Login Web Sentinel Feature
 
   Scenario: User Want To Login Web

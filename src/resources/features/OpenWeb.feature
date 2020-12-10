@@ -1,3 +1,4 @@
+@featureOpen
 Feature: Open Web Feature
 
   Scenario: User Want to Open Web
