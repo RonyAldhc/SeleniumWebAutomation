@@ -7,8 +7,8 @@ public class OpenPageSteps {
 
     LoginPage loginPage = new LoginPage();
 
-    @Given("user open sentinel page")
-    public void userOpenSentinelPage() {
+    @Given("user open google page")
+    public void userOpenGooglePage() {
         loginPage.openPage();
     }
 }
